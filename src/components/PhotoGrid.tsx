@@ -8,7 +8,7 @@ const PhotoGrid: React.FC = () => {
   const fetchPhotos = async () => {
     try {
       const response = await axios.get(
-        "https://api.unsplash.com/photos/random?client_id=NlFVspcnuTCGqwJnq8bpNLIv1Q93RrNvJ3KCdzgnUZs",
+        "https://api.unsplash.com/photos/random?client_id=6mslEXjbctzxK_8Ep-MMsl5JA5JD5Sb1MinKKmRjxDE",
         {
           params: { count: 9 },
         }
