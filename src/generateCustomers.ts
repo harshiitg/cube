@@ -5,7 +5,7 @@ interface Customer {
   address: string;
 }
 
-export const generateCustomers = (): Customer[] => {
+const generateCustomers = (): Customer[] => {
   const titles = [
     "CEO",
     "CTO",
@@ -30,3 +30,5 @@ export const generateCustomers = (): Customer[] => {
 
   return customers;
 };
+
+export default generateCustomers;

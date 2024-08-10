@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import CustomerList from "./components/CustomerList";
-import CustomerDetails from "./components/CustomerDetails";
+import CustomerList from "./components/CustomerList.tsx";
+import CustomerDetails from "./components/CustomerDetails.tsx";
 import "./App.css";
-import { generateCustomers } from "./generateCustomers";
+import  generateCustomers  from "./generateCustomers.ts";
 
 const App: React.FC = () => {
   const [customers] = useState(generateCustomers());

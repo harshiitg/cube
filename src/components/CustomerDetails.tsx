@@ -1,5 +1,5 @@
 import React from "react";
-import PhotoGrid from "./PhotoGrid";
+import PhotoGrid from "./PhotoGrid.tsx";
 
 interface Customer {
   id: number;
